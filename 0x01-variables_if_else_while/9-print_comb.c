@@ -11,7 +11,7 @@ int main(void)
 	for (ReeChard = '0'; ReeChard <= '9'; ++ReeChard)
 	{
 		putchar(ReeChard);
-		if (ReeChard != '8')
+		if (ReeChard != '9')
 		{
 			putchar(',');
 			putchar(' ');
