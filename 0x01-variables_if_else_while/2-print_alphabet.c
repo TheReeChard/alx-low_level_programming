@@ -4,7 +4,7 @@
  *
  * Return: she is annoying ohhhhh
  */
-int main(void) 
+int main(void)
 {
 	char ReeChard;
 
