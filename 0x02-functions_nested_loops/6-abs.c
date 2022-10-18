@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 /**
  * _abs - gets absolute value
  * @n: the int to be checked
@@ -10,5 +11,5 @@ int _abs(int n)
 	{
 		return (n);
 	}
-	return (-n);
+	return (sqrt(n*n));
 }
