@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	long long int a, b, total;
+	unsigned long int a, b, total;
 	int i;
 
 	a = 0;
@@ -25,6 +25,6 @@ int main(void)
 		}
 	}
 	total = a + b;
-	printf("%lld\n", total);
+	printf("%ld\n", total);
 	return (0);
 }
