@@ -8,7 +8,8 @@
 int print_last_digit(int n)
 {
   int i;
-  let n = -n;
+  if (n < 0)
+    n = -n;
     i = n % 10;
   return (i);
   
