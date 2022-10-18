@@ -3,7 +3,6 @@
 
 /**
  * main - prints the sum of all the multiples in question 13
- * 
  * Return: Always 0
  */
 int main(void)
