@@ -17,7 +17,7 @@ int print_last_digit(int n)
 	if (i < 0)
 		i = -i;
 
-	printf(i);
+	printf("%ld",i);
 
 	return (i);
 }
