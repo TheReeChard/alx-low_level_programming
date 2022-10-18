@@ -1,6 +1,6 @@
 #include "stdio.h"
 /**
- * print_alphabet();
+ * print_alphabet() - will print alphabets
  *
  */
 void print_alphabet(void)
@@ -9,5 +9,5 @@ void print_alphabet(void)
 
 	for (ReeChard = 'a'; ReeChard <= 'z'; ++ReeChard)
 		putchar(ReeChard);
-		putchar('\n');
+	putchar('\n');
 }
