@@ -4,7 +4,6 @@
  * print_sign - i will swear for betty
  * @n: the int to check
  * Return: 1 blah blah blah
- * 
  */
 int print_sign(int n)
 {
