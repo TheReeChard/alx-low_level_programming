@@ -9,4 +9,5 @@ void print_alphabet(void)
 
 	for (ReeChard = 'a'; ReeChard <= 'z'; ++ReeChard)
 		putchar(ReeChard);
+		putchar('\n');
 }
