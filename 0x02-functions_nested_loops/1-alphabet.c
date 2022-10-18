@@ -1,6 +1,6 @@
 #include "stdio.h"
 /**
- * print_alphabet() - will print alphabets
+ * print_alphabet - will print alphabets
  *
  */
 void print_alphabet(void)
