@@ -1,16 +1,22 @@
-#include <stdio.h>
-#include <math.h>
+#include "main.h"
 /**
- * _abs - gets absolute value
- * @n: the int to be checked
- * Return: valu to be returned
+ * print_last_digit - will print modulo 10
+ * @n: meh
+ * Return: value of the last digit
  */
 int print_last_digit(int n)
 {
-  int i;
-  if (n < 0)
-    n = -n;
-    i = n % 10;
-  return (i);
-  
+	int i;
+
+	if (n < 0)
+		n = -n;
+
+	i = n % 10;
+
+	if (a < 0)
+		a = -a;
+
+	_putchar(i + '0');
+
+	return (i);
 }
